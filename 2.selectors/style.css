@@ -1,0 +1,30 @@
+* {
+    font-family: fantasy;
+}
+
+body {                        /* element selector */
+    font-size: 24px;
+}
+
+#first>p {                    /* nested selector */
+    color: greenyellow;
+}
+
+#first, #second {                      /* id selector, group selector */
+    color: red;
+}
+
+.purple {                     /* class selector */
+    color: purple;
+    font-family: monospace;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bolder ;
+    font-style: italic;
+}
+
+h2:hover {
+    font-family: monospace;
+}
