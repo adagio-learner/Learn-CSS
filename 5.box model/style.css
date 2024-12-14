@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 10px solid red;
+    padding: 30px;
+        /* [top] [right] [bottom] [left] */
+
+        /*   40px 10px 20px
+         [top] [bottom] [right and left]*/
+
+                  /* 40px 20px
+         [top and bottom] [left and right] */
+
+    margin: 40px;
+} 

@@ -1,0 +1,46 @@
+/* define font in body element */
+
+h1 {
+    color: darkslateblue;
+    background-color: bisque;
+    text-align: center;
+    text-shadow: 4px 4px 1px pink, 8px 8px 3px blue;
+              /* right left blur */
+    color: transparent;
+
+}
+
+p {
+    text-align: justify;
+    letter-spacing: 0.1rem;
+    text-indent: 40px;
+    line-height: 1.6rem;
+}
+
+a {
+    text-decoration: line-through;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+
+}
+
+.first {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;   /* 400 -> default */
+    font-style: oblique;
+}
+
+
+.second {
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+}
+
+.third {
+    color: transparent;
+    text-shadow: 4px 4px 4px black;
+    font-family: cursive;
+}
