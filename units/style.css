@@ -1,0 +1,22 @@
+main {
+    border: 5px solid brown;
+    border-radius: 10px;
+    width: 50vw;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+}
+
+/* rem relative to the root,
+   em relative to the parent,
+   % relative to the parent,
+   px is absolute value */
+
+section {
+    border: 5px dashed green;
+    border-radius: 30px;
+    width: 50%;
+}
