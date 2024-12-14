@@ -1,0 +1,47 @@
+body {
+    background-color: aqua;
+    color: black;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    background-color: gainsboro;
+    margin: 100px;
+}
+
+.box {
+    width: 250px;
+    height: 100px;
+    
+}
+
+.orange {
+    background-color: #fd6b03;
+    position: relative;         /*relative is related with parent.*/
+    left: 25px;
+}
+.white {
+    background-color: white;
+    position: fixed;            /*fixed is relative to the root*/ 
+    left: 133px;
+    z-index: 1;
+}
+.green {
+    background-color: #019f0b;
+    position: absolute;
+    top: 300px;                     /*absolute is related with root element but parent of absolute element is not always root element.*/
+    left: 133px;
+    z-index: 1;
+}
+
+.spacer {
+    height: 300vh;
+}
+
+.purple {
+    background-color: purple;
+    position: sticky;
+    top: 50px;
+    margin-left: 25px;
+}
