@@ -1,0 +1,30 @@
+.container {
+    height: 400px;
+    border: 1px solid red;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
+
+/* .block1 {
+    overflow: auto;
+    border: 1px solid green;
+} */
+
+.p1 {
+    border: 1px solid red;
+    margin-right: 100px;
+}
+
+.img1 {
+    margin-left: 40px;
+    float: right;
+}
+
+.img2 {
+    float: left;
+}
+
+.p2 {
+    clear: right;
+}
