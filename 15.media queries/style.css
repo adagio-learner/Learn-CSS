@@ -1,0 +1,32 @@
+body {
+    background-color: rebeccapurple;
+}
+
+/* @media (width <= 400px) {
+    body {
+        background-color: aquamarine;
+    }
+} */
+
+/* @media (max-width: 400px) {
+    body {
+        background-color: aquamarine;
+    }
+} */
+
+/* @media (min-width: 200px) and (max-width: 400px) {
+    body {
+        background-color: aquamarine;
+    }
+} */
+/* @media (200px <= width <= 400px) {
+    body {
+        background-color: aquamarine;
+    }
+} */
+
+@media (orientation: portrait) {
+    body {
+        background-color: pink;
+    }
+}
